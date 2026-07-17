@@ -15,7 +15,7 @@ type: "about"
 - 区块链安全
 
 ### 联系方式
-- GitHub: [Hades-blog](https://github.com/Hades-blog)
+- GitHub: [kuhvc](https://github.com/kuhvc)
 - Email: your-email@example.com
 
 ### 公告
