@@ -1,0 +1,146 @@
+# ---------------------------------------------------------------
+# Theme Settings
+# ---------------------------------------------------------------
+
+# Scheme Available: Muse | Mist | Pisces | Gemini
+scheme: Gemini
+
+# Dark Mode
+darkmode: true
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+menu:
+  home: / || fa fa-home
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  archives: /archives/ || fa fa-archive
+  about: /about/ || fa fa-user
+
+# ---------------------------------------------------------------
+# Social Settings
+# ---------------------------------------------------------------
+
+social:
+  GitHub: https://github.com/your-username || fab fa-github
+  E-Mail: mailto:your-email@example.com || fa fa-envelope
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+
+# Adjust the color of the scheme
+colorscheme: default
+
+# ---------------------------------------------------------------
+# Tags Settings
+# ---------------------------------------------------------------
+
+# Enable tags
+tag_cloud:
+  enable: true
+  min: 12
+  max: 30
+  amount: 200
+  orderby: name
+  order: 1
+
+# ---------------------------------------------------------------
+# Archive Settings
+# ---------------------------------------------------------------
+
+archive_type: monthly
+
+# ---------------------------------------------------------------
+# Comment Settings
+# ---------------------------------------------------------------
+
+# Disqus
+# disqus:
+#   shortname: your-disqus-shortname
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
+seo: false
+
+# ---------------------------------------------------------------
+# Back to Top Button
+# ---------------------------------------------------------------
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# ---------------------------------------------------------------
+# Reading Progress
+# ---------------------------------------------------------------
+
+reading_progress:
+  enable: true
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+# ---------------------------------------------------------------
+# GitHub Buttons
+# ---------------------------------------------------------------
+
+github_banner:
+  enable: true
+  permalink: https://github.com/your-username
+  title: Follow me on GitHub
+
+# ---------------------------------------------------------------
+# Font Settings
+# ---------------------------------------------------------------
+
+font:
+  enable: true
+  host:
+  global:
+    external: true
+    family: Noto Sans SC
+    size: 1
+  title:
+    external: true
+    family:
+    size:
+  headings:
+    external: true
+    family:
+    size:
+  posts:
+    external: true
+    family:
+    size:
+  codes:
+    external: true
+    family:
+    size:
+
+# ---------------------------------------------------------------
+# Mobile Theme Settings
+# ---------------------------------------------------------------
+
+mobile_layout_economy: true
+
+# ---------------------------------------------------------------
+# Animation Settings
+# ---------------------------------------------------------------
+
+motion:
+  enable: true
+  async: false
+  transition:
+    menu_item: fadeInDown
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    # Sidebar
+    sidebar: fadeInUp
